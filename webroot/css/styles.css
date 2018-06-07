@@ -1,0 +1,89 @@
+* {
+	margin:  0;
+	padding: 0;
+}
+section {
+	width: 80%;
+	margin: 20px auto;
+}
+
+.add_form_btn {
+	background-image: url('https://image.flaticon.com/icons/png/512/14/14344.png');
+	background-repeat: no-repeat;
+	background-size: 94px 95px;
+	background-color: white;
+	width: 100px;
+	height: 100px;
+	margin-top: 10px;
+	float: left;
+}
+
+.clear {
+	clear: both;
+}
+
+.form_body {
+	width: 250px;
+    float: left;
+    margin: 5px 20px;
+    border: 2px solid gray;
+    border-radius: 12px;
+    padding: 10px 10px;
+}
+.edit_form_list {
+	width: 250px;
+    margin: 5px auto;
+    border: 2px solid #f0ad4e;
+    border-radius: 12px;
+    padding: 10px 10px;
+}
+
+.form_fields {
+	margin: 10px;
+}
+
+.form_fields div {
+	border: 1px solid gray;
+	padding: 3px
+}
+
+.add_field {
+	width: 16px;
+	cursor: pointer;
+}
+.del_field {
+	width: 15px;
+    float: right;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.hide {
+	display: none;
+}
+
+.error_message {
+	color: red;
+}
+.success_message {
+	color: green;
+}
+.publish_contaner {
+	float: left;
+	width: 210px;
+	margin: 10px 20px;
+}
+.cancel_edit {
+	margin-left: 5px;
+}
+.user_page {
+	float: right;
+	color: white;
+}
+.user_page a,
+.user_page a:hover,
+.user_page a:link,
+.user_page a:active {
+	color: white;
+	text-decoration: none;
+}
+
